@@ -4,6 +4,11 @@
 
 > Add some *Salt* 🧂 to your video generation distillation
 
+**Xingtong Ge<sup>1,2</sup>, Yi Zhang<sup>2</sup>, Yushi Huang<sup>1</sup>, Dailan He<sup>2</sup>, Xiahong Wang<sup>2</sup>, Bingqi Ma<sup>2</sup>, Guanglu Song<sup>2</sup>, Yu Liu<sup>2</sup>, Jun Zhang<sup>1</sup>**
+
+<sup>1</sup> Hong Kong University of Science and Technology  
+<sup>2</sup> Vivix Group Limited
+
 ## Abstract
 
 Distilling video generation models to extremely low inference budgets (e.g., 2-4 NFEs) is crucial for real-time deployment, yet remains challenging. Trajectory-style consistency distillation often becomes conservative under complex video dynamics, yielding over-smoothed appearance and weak motion. Distribution matching distillation (DMD) can recover sharp, mode-seeking samples, but its local training signals do not explicitly regularize how denoising updates compose across timesteps, making composed rollouts prone to drift. To overcome this challenge, we propose Self-Consistent Distribution Matching Distillation (SC-DMD), which explicitly regularizes the endpoint-consistent composition of consecutive denoising updates. For real-time autoregressive video generation, we further treat the KV cache as a quality-parameterized condition and propose cache-distribution-aware training. This training scheme applies SC-DMD over multi-step rollouts and introduces a cache-conditioned feature alignment objective that steers low-quality outputs toward high-quality references. Across extensive experiments on both non-autoregressive backbones (e.g., Wan 2.1) and autoregressive real-time paradigms (e.g., Self Forcing, Causal Forcing, and LongLive), Salt consistently improves low-NFE video generation quality while remaining compatible with diverse KV-cache memory mechanisms.
