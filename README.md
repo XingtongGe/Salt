@@ -1,10 +1,10 @@
 # Salt. 🧂
 
-**Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation**
+### Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation
 
 > Add some *Salt* 🧂 to your video generation distillation
 
-**Xingtong Ge<sup>1,2</sup>, Yi Zhang<sup>2</sup>, Yushi Huang<sup>1</sup>, Dailan He<sup>2</sup>, Xiahong Wang<sup>2</sup>, Bingqi Ma<sup>2</sup>, Guanglu Song<sup>2</sup>, Yu Liu<sup>2</sup>, Jun Zhang<sup>1</sup>**
+Xingtong Ge<sup>1,2</sup>, Yi Zhang<sup>2</sup>, Yushi Huang<sup>1</sup>, Dailan He<sup>2</sup>, Xiahong Wang<sup>2</sup>, Bingqi Ma<sup>2</sup>, Guanglu Song<sup>2</sup>, Yu Liu<sup>2</sup>, Jun Zhang<sup>1</sup>
 
 <sup>1</sup> Hong Kong University of Science and Technology  
 <sup>2</sup> Vivix Group Limited
