@@ -10,17 +10,7 @@ Distilling video generation models to extremely low inference budgets (e.g., 2-4
 
 ## Selected Results
 
-### Image-to-video generation on VBench-I2V
-
-| Method | NFE | I2V Score | Quality | Background Consistency | Motion Smoothness | Dynamic Degree | Imaging Quality | Temporal Flicker |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| PCM | 8 | 93.63 | 78.52 | 97.34 | 98.24 | 30.98 | 70.42 | 97.67 |
-| DMD | 4 | 93.09 | 78.89 | 92.79 | 97.99 | 58.46 | 70.35 | 95.21 |
-| LightX2V | 4 | 93.50 | 80.92 | 95.87 | 97.89 | 60.33 | 71.67 | 96.30 |
-| Salt (SC-DMD) | 4 | **93.90** | 80.86 | **95.97** | **98.37** | 52.85 | **72.16** | **97.41** |
-| Salt-alpha | 4 | 93.88 | **81.71** | 95.46 | 98.30 | **68.13** | 72.08 | 96.48 |
-
-### 5-second video generation on VBench
+### Text-to-video generation on VBench
 
 **Diffusion models**
 
@@ -40,9 +30,19 @@ Distilling video generation models to extremely low inference budgets (e.g., 2-4
 | Salt + LongLive | 4 | **84.93** | **85.41** | **83.00** |
 | Causal Forcing | 4 | 84.62 | 85.41 | 81.47 |
 | Salt + Causal Forcing | 4 | **85.08** | **85.96** | **81.59** |
-| Salt + Causal Forcing | 2 | 84.80 | 85.63 | 81.49 |
+| Salt + Causal Forcing | 2 | **84.80** | **85.63** | **81.49** |
 
-### 30-second autoregressive generation on VBench-Long
+### Image-to-video generation on VBench-I2V
+
+| Method | NFE | I2V Score | Quality | Background Consistency | Motion Smoothness | Dynamic Degree | Imaging Quality | Temporal Flicker |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| PCM | 8 | 93.63 | 78.52 | 97.34 | 98.24 | 30.98 | 70.42 | 97.67 |
+| DMD | 4 | 93.09 | 78.89 | 92.79 | 97.99 | 58.46 | 70.35 | 95.21 |
+| LightX2V | 4 | 93.50 | 80.92 | 95.87 | 97.89 | 60.33 | 71.67 | 96.30 |
+| Salt (SC-DMD) | 4 | **93.90** | 80.86 | **95.97** | **98.37** | 52.85 | **72.16** | **97.41** |
+| Salt-alpha | 4 | 93.88 | **81.71** | 95.46 | 98.30 | **68.13** | 72.08 | 96.48 |
+
+### Long-horizon autoregressive generation on VBench-Long
 
 | Backbone | Total | Quality | Semantic |
 | --- | ---: | ---: | ---: |
