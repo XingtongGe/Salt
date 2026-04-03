@@ -1,6 +1,6 @@
-# Salt. 🧂
+# Salt🧂: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation
 
-### Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation
+<!-- ### Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation -->
 
 > Add some *Salt* 🧂 to your video generation distillation
 
