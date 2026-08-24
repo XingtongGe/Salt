@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use Salt, please cite our paper."
+title: "Salt: Self-consistent distribution matching with cache-aware training for fast video generation"
+type: software
+authors:
+  - family-names: Ge
+    given-names: Xingtong
+  - family-names: Zhang
+    given-names: Yi
+  - family-names: Huang
+    given-names: Yushi
+  - family-names: He
+    given-names: Dailan
+  - family-names: Wang
+    given-names: Xiahong
+  - family-names: Ma
+    given-names: Bingqi
+  - family-names: Song
+    given-names: Guanglu
+  - family-names: Liu
+    given-names: Yu
+  - family-names: Zhang
+    given-names: Jun
+repository-code: "https://github.com/XingtongGe/Salt"
+url: "https://arxiv.org/abs/2604.03118"
+preferred-citation:
+  type: article
+  title: "Salt: Self-consistent distribution matching with cache-aware training for fast video generation"
+  authors:
+    - family-names: Ge
+      given-names: Xingtong
+    - family-names: Zhang
+      given-names: Yi
+    - family-names: Huang
+      given-names: Yushi
+    - family-names: He
+      given-names: Dailan
+    - family-names: Wang
+      given-names: Xiahong
+    - family-names: Ma
+      given-names: Bingqi
+    - family-names: Song
+      given-names: Guanglu
+    - family-names: Liu
+      given-names: Yu
+    - family-names: Zhang
+      given-names: Jun
+  journal: "arXiv preprint arXiv:2604.03118"
+  year: 2026

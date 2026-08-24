@@ -1,0 +1,3 @@
+# Install flash-attn separately with --no-build-isolation on supported GPUs.
+dashscope
+xfuser
